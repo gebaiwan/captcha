@@ -1,5 +1,5 @@
 {
-	"name": "gebaiwan/captcha",
+	"name": "mews/captcha",
 	"type": "package",
 	"description": "Laravel 5 & 6 Captcha Package",
 	"keywords": ["laravel6 Captcha", "laravel6 Security", "laravel6 Captcha", "laravel5 Security", "Captcha"],
@@ -53,5 +53,11 @@
 				"Captcha": "Mews\\Captcha\\Facades\\Captcha"
 			}
 		}
-	}
+	},
+	"repositories": [
+	    {
+		"type": "vcs",
+		"url": "https://github.com/gebaiwan/captcha"
+	    },
+	]
 }
